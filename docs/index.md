@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome Page
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the JH How To Guide! On this website you can find a variety of tips and tricks to help you be more efficient with the computers you are using.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The general idea behind this guide is to have a personal wiki which you can consult and edit to your hearts content! Whether you found an answer after a long search on the web, or want a simple reminder of a terminal command, this guide is here to help!
