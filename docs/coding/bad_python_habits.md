@@ -5,7 +5,7 @@ This page goes over 25 common bad habits that a new programmer commonly does whe
 This page is inspired from the video [25 Nooby Python Habits You Need to Ditch](https://www.youtube.com/watch?v=qUeud6DvOWI).
 
 ## 1. Manual String Formatting
-``` python
+``` py
 def manual_str_formatting(name, subscribers):
     # Not great
     if subscribers > 100000:
@@ -23,7 +23,7 @@ def manual_str_formatting(name, subscribers):
 Using `fstring`s are easier to write, less prone to errors, and easier to read.
 
 ## 2. Manually Closing a File
-``` python
+``` py
 def manually_calling_close_on_a_file(filename):
     # Not great
     f = open(filename, "w")
@@ -38,7 +38,7 @@ def manually_calling_close_on_a_file(filename):
 With the first method, if `f.write("hello!\n")` throws an exception, the file will never close. The resource manager will close the file even when an exception is thrown.
 
 ## 3. Using `try:` and `finally:` Instead of a Context Manager
-``` python
+``` py
 def finally_instead_of_context_manager(host, port):
     # Not great
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -57,7 +57,7 @@ def finally_instead_of_context_manager(host, port):
 In python, most resources that need to be closed have a context manager, use it!
 
 ## 4. Using a Bare `except:` Clause
-``` python
+``` py
 def bare_except():
     # Not great
     while True:
@@ -90,14 +90,14 @@ def bare_except():
 In python, a bare except is usually going to catch something like hitting Ctrl+C, which is something you almost never want to do.
 
 ## 5. Thinking that `^` Means Exponentiation
-``` python
+``` py
 def caret_and_exponentiation(x, p):
     y = x ^ p  # Bitwise xor of x and p, not exponentiation
     y = x ** p # Exponentiation
 ```
 
 ## 6. Use of Default Mutable Arguments
-``` python
+``` py
 def mutable_default_arguments():
     # Not great
     def append(n, l=[]):
@@ -123,7 +123,7 @@ Any use of default mutable arguments is to be avoided. Argument defaults are def
 If you want to define a default, set it to `None` and then check if it's None and set the default there.
 
 ## 7. Never Using Comprehensions, or Only Using List Comprehensions
-``` python
+``` py
 def never_using_comprehensions():
     # Not great
     squares = {}
@@ -136,7 +136,7 @@ def never_using_comprehensions():
 
 A lot of code can be made shorter and clearer by using a comprehension. You can have dictionary, lists, set and even generator comprehensions (see below). You can learn more about comprehensions [here](https://www.geeksforgeeks.org/comprehensions-in-python/).
 
-``` python
+``` py
 def example_comprehensions():
     dict_comp = {i: i * i for i in range(10)}
     list_comp = {x * x for x in range(10)}
@@ -145,7 +145,7 @@ def example_comprehensions():
 ```
 
 ## 8. ALWAYS using comprehensions
-``` python
+``` py
 def always_using_comprehensions(a, b, n):
     """matrix product of a, b of length n x n"""
     # Not always needed
@@ -168,7 +168,7 @@ def always_using_comprehensions(a, b, n):
 Of course, you can flex with your comprehensions, but you don't need to turn every single loop into a comprehension. Think about what is more readable and reasonable to use.
 
 ## 9. Checking for a type using `==`
-``` python
+``` py
 def checking_type_equality():
     Point = namedtuple('Point', ['x', 'y'])
     p = Point(1, 2)
@@ -189,7 +189,7 @@ def checking_type_equality():
 While there are some rare cases where you do want to do this, but most of the time, this is not what you want. The reason is inheritance. In the example above, a namedTuple is a tuple so the `Point` class is a tuple, but it's not literally a tuple, it is a subclass
 
 ## 10. Using `==` to check for `None`, `True`, or `False`
-``` python
+``` py
 def equality_for_singletons(x):
     # Not great
     if x == None:
@@ -215,7 +215,7 @@ def equality_for_singletons(x):
 Instead of equality, you should check for identity using the `is` comparison. This is what `==` was going to use anyway, so cut out the middle-man and use `is` directly.
 
 ## 11. Using an `if bool(x):` or `if len(x)` check
-``` python
+``` py
 def checking_bool_or_len(x):
     # Not great
     if bool(x):
@@ -230,7 +230,7 @@ def checking_bool_or_len(x):
 ```
 
 ## 12. Using the `range(len(a))` idiom
-``` python
+``` py
 def range_len_pattern():
     a = [1, 2, 3]
     # Not great
@@ -264,7 +264,7 @@ def range_len_pattern():
 ```
 
 ## 13. Looping over the keys of a dictionary
-``` python
+``` py
 def for_key_in_dict_keys():
     d = {"a": 1, "b": 2, "c": 3}
     for key in d.keys():
@@ -280,7 +280,7 @@ def for_key_in_dict_keys():
 ```
 
 ## 14. Not knowing about the dictionary items methods
-``` python
+``` py
 def not_using_dict_items():
     d = {"a": 1, "b": 2, "c": 3}
     # Not great
@@ -294,7 +294,7 @@ def not_using_dict_items():
 ```
 
 ## 15. Not using tuple unpacking
-``` python
+``` py
 def tuple_unpacking():
     x = 0
     y = 1
@@ -319,7 +319,7 @@ def tuple_unpacking():
 If you have a tuple and want to get both of it's elements out in seprate variables? Use tuple unpacking!
 
 ## 16. Creating your own index counter variable
-``` python
+``` py
 def index_counter_variable():
     l = [1, 2, 3]
 
@@ -335,7 +335,7 @@ def index_counter_variable():
 ```
 
 ## 17. Using `time.time()` to time things
-``` python
+``` py
 def timing_with_time():
     # Not great
     start = time.time()
@@ -353,7 +353,7 @@ def timing_with_time():
 `time.time()` is for telling you what time it currently is, and it's not as accurate as `time.perf_counter()`.
 
 ## 18. Not using the logging module
-``` python
+``` py
 def print_vs_logging():
     # To be avoided
     print("debug info")
@@ -375,7 +375,7 @@ def print_vs_logging():
 You can set up your logging format the way you want it. You can also set up logging to filter out messages that you are not interested in.
 
 ## 19. Using `shell = True` on any function in the subprocess library
-``` python
+``` py
 def subprocess_with_shell_true():
     # Not great
     subprocess.run(["ls -l"], capture_output=True, shell=True)
@@ -387,7 +387,7 @@ def subprocess_with_shell_true():
 `shell=True` is the source of a lot of security problems. The most common reason for doing this is to avoid putting your arguments into a list.
 
 ## 20. Doing maths or any kind of data analysis in Python
-``` python
+``` py
 def not_using_numpy_pandas():
     # Not great - slow
     x = list(range(100))
@@ -403,7 +403,7 @@ def not_using_numpy_pandas():
 Learn to use numpy arrays for math operations, and learn to use pandas for more general data analysis. They run C or C++ in the background and will perform operations much faster that in Python.
 
 ## 21. Using `import *` outside of an interactive session
-``` python
+``` py
 from itertools import *
 
 # who knows what variables are in scope now?
@@ -414,7 +414,7 @@ count()
 `import *` usually litters your namespace with variables. Instead, just import the things you actually need.
 
 ## 22. Depending on a specific directory structure for your project
-``` python
+``` py
 from mypackage.nearby_module import awesome_function
 
 
