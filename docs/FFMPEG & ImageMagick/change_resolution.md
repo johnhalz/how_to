@@ -11,6 +11,11 @@ To resize an image to specific dimensions, without maintaining the original imag
 convert original.png -resize 100x100! new.png
 ```
 
+You can also use percentages with the resize flag. For example, if you want to make an image smaller by 50%, all you need to type is:
+``` bash
+magick original.png -resize 50% new.png
+```
+
 ## Change Video Resolution
 If you want to change the resolution of a video to 480x320, you can do this simply by entering the command:
 ``` bash
