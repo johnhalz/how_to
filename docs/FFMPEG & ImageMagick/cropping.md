@@ -48,6 +48,7 @@ ffmpeg -i input.mp4 -filter:v "crop=w:h:x:y" output.mp4
 ```
 
 What this all means:
+
 - `-i input.mp4` specifies the input video (`input.mp4` being the input / original video in this case)
 
 - `-filter:v` (can be abbreviated to `-vf`) specifies we're using a video filter
@@ -65,6 +66,7 @@ What this all means:
 - `output.mp4` is the new, cropped video file.
 
 A few notes:
+
 - The filter will automatically center the crop if `x` and `y` are omitted, so `x` defaults to `(iw-w)/2`, and `y` to `(ih-h)/2`
 
 - There is also an optional `keep_aspect` option that you can set to `1` to force the output display aspect ratio to be the same of the input (example usage: `"crop=100:100:0:0:keep_aspect=1"`). This won't work with images, that's why you don't see a separate example with screenshot here.
