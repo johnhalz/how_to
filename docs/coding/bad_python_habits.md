@@ -138,10 +138,10 @@ A lot of code can be made shorter and clearer by using a comprehension. You can 
 
 ``` py
 def example_comprehensions():
-    dict_comp = {i: i * i for i in range(10)}
-    list_comp = {x * x for x in range(10)}
-    set_comp = {i%3 for i in range(10)}
-    gen_comp = {2*x+5 for x in range(10)}
+    dict_comp = [i * i for i in range(10)]
+    list_comp = [x * x for x in range(10)]
+    set_comp = [i%3 for i in range(10)]
+    gen_comp = [2*x+5 for x in range(10)]
 ```
 
 ## 8. ALWAYS using comprehensions
