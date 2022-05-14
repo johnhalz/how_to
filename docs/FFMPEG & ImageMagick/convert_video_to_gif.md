@@ -19,6 +19,7 @@ ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1:flags=lanczos" -c:v pam -f image2pi
 ```
 
 FFMPEG options:
+
 - `-vf "fps=10,scale=320:-1:flags=lanczos"` is a filtergraph using the fps and scale filters. fps sets frame rate to 10, and scale sets the size to 320 pixels wide and height is automatically determined and uses a value that preserves the aspect ratio. The lanczos scaling algorithm is used in this example.
 - `-c:v pam` Chooses the pam image encoder. The example outputs the PAM (Portable AnyMap) image format which is a simple, lossless RGB format that supports transparency (alpha) and is supported by convert. It is faster to encode than PNG.
 - `-f image2pipe` chooses the image2pipe muxer because when outputting to a pipe FFMPEG needs to be told which muxer to use.

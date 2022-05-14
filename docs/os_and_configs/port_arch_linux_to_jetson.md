@@ -10,7 +10,9 @@ This guide will show you how to port Arch Linux onto the Nvidia Jetson Nano Devk
     wget https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/jetson-210_linux_r32.6.1_aarch64.tbz2 Linux_for_Tegra.tbz2
     ```
 
-    > *Note:* The link is different for the AGX Xavier Jetson.
+    !!! info
+
+        The link is different for the AGX Xavier Jetson.
 
 2. Extract the downloaded Jetson Nano driver packages (from step 1) to a folder called `Linux_for_Tegra`:
     ``` bash

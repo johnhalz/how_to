@@ -1,10 +1,5 @@
 # Create Bootable Drive in Terminal
 
-## Linux
-1. Download the iso into your `Downloads` folder
-
-2. 
-
 ## Windows
 The process is relatively simple; however, a limitation of this method is the issue of the installer being 5.2GB. You cannot burn a file bigger than 4GB on a FAT32 formatted drive, which is the only format that works with both Windows and macOS.
 

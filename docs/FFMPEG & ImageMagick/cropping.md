@@ -50,17 +50,11 @@ ffmpeg -i input.mp4 -filter:v "crop=w:h:x:y" output.mp4
 What this all means:
 
 - `-i input.mp4` specifies the input video (`input.mp4` being the input / original video in this case)
-
 - `-filter:v` (can be abbreviated to `-vf`) specifies we're using a video filter
-
 - `"crop=W:H:X:Y"` means we're using the `"crop"` video filter, with 4 values:
-    
     - `w` the width of the output video (so the width of the cropped region), which defaults to the input video width (input video width = `iw`, which is the same as `in_w`); out_w may also be used instead of `w`
-    
     - `h` the height of the output video (the height of the cropped region), which defaults to the input video height (input video height = `ih`, with `in_h` being another notation for the same thing); `out_h` may also be used instead of `h`
-    
     - `x` the horizontal position from where to begin cropping, starting from the left (with the absolute left margin being `0`)
-    
     - `y` the vertical position from where to begin cropping, starting from the top of the video (the absolute top being `0`)
 
 - `output.mp4` is the new, cropped video file.
@@ -68,7 +62,5 @@ What this all means:
 A few notes:
 
 - The filter will automatically center the crop if `x` and `y` are omitted, so `x` defaults to `(iw-w)/2`, and `y` to `(ih-h)/2`
-
 - There is also an optional `keep_aspect` option that you can set to `1` to force the output display aspect ratio to be the same of the input (example usage: `"crop=100:100:0:0:keep_aspect=1"`). This won't work with images, that's why you don't see a separate example with screenshot here.
-
 - FFmpeg gets the original input video width (`iw`) and height (`ih`) values automatically, so you can perform mathematical operations using those values (e.g. `iw/2` for half the input video width, or `ih-100` to subtract 100 pixels from the input video height).

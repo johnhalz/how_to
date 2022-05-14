@@ -30,11 +30,11 @@
 
     3. Inside `fdisk` - Create a new GPT partition table: Type `g`
         We will create 3 new partitions, as shown in table below:
-        | Partition # | Type | Size   |
-        |-------------|------|--------|
-        | Partition 1 | boot | 550M   |
-        | Partition 2 | swap | 2G     |
-        | Partition 3 | `/`  | (rest) |
+        | Partition #   | Type   | Size     |
+        | ------------- | ------ | -------- |
+        | Partition 1   | boot   | 550M     |
+        | Partition 2   | swap   | 2G       |
+        | Partition 3   | `/`    | (rest)   |
 
         1. Inside `fdisk` - Create Partition 1:
             - Type `n` to create a new partition
