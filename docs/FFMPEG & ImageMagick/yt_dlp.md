@@ -1,6 +1,24 @@
-# `yt-dlp` Guide
+# YT-DLP Guide
 
 `yt-dlp` is a simple terminal tool that allows you to download videos from YouTube onto your computer.
+
+## Installation
+Installing the tool is easy, you can do it with a single command on all Unix systems:
+=== "Ubuntu"
+    ``` bash
+    sudo apt install yt-dlp
+    ```
+
+=== "Arch"
+    ``` bash
+    sudo pacman -S yt-dlp
+    ```
+
+=== "macOS"
+    ``` bash
+    brew install yt-dlp
+    ```
+
 
 ## Downloading a YouTube Video
 

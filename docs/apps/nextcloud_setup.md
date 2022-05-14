@@ -4,7 +4,9 @@
 
 ## Installing and Setting up Nextcloud On Ubuntu
 
-> TODO: Add instructions for Arch Linux
+!!! warning
+    This document is not completed! Instructions need to be revised
+    > TODO: Add instructions for Arch Linux
 
 You can install nextcloud server with snapd:
 

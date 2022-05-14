@@ -187,6 +187,7 @@ As Arch Linux uses systemd rather than upstart, the init script will need to be 
 15. To create the systemd service, we will need the service descriptor file, that tells systemd about the service. Hence need to create a service file as below in `<path_to_L4T_TOP_DIR>/rootfs/usr/lib/systemd/system/nvidia-tegra.service`:
 
     !!! tip
+    
         Path may actually be `<path_to_L4T_TOP_DIR>/usr/lib/systemd/system/nvidia-tegra.service`. Try the first one before showing this guide to anyone else!!
 
     Create and open file in vim editor:

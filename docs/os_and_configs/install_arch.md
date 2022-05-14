@@ -4,6 +4,7 @@
 
 !!! tip
     There is a new method for installing Arch linux using a script, while this is still in beta, they are slowly starting to roll it out to users. You can find more infor below:
+
     - [Installation video](https://odysee.com/@DistroTube:2/install-arch-linux-the-easy-way-with-the:3)
     - [Arch Wiki Link](https://wiki.archlinux.org/title/Archinstall)
 
@@ -36,6 +37,7 @@
 
     3. Inside `fdisk` - Create a new GPT partition table: Type `g`
         We will create 3 new partitions, as shown in table below:
+        
         | Partition #   | Type   | Size     |
         | ------------- | ------ | -------- |
         | Partition 1   | boot   | 550M     |
@@ -106,7 +108,8 @@
     ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime && hwclock --systohc
     ```
 
-    > You can list the regions by running: `ls /usr/share/zoneinfo/`
+    !!! tip
+        You can list the regions by running: `ls /usr/share/zoneinfo/`
 
 11. Set the locale
     1. Start by installing the `vim` editor:

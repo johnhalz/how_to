@@ -1,6 +1,7 @@
 # Diagnosing Slow Python Code
 
-> Note: This guide is inspired from the video [Diagnose Slow Python Sode (feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw&t)
+!!! info
+    This guide is inspired from the video [Diagnose Slow Python Sode (feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw&t)
 
 Imagine we have a bit of code in python and it's performance is under the required specififcation. We want an effective way to find what in the code is causing the slowdown without guessing or relying on any experience of the coder. A wrong guess can mean spending hours of time improving a bit of code only to find that performance is barely improved.
 

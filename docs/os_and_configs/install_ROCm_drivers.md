@@ -1,10 +1,10 @@
 # How to Install ROCm for AMD GPUs
 
 !!! warning
-   You cannot have ROCm and AMDGPU-Pro driver installed at the same time, if you already have AMDGPU-Pro installed, run the command:
-   ``` bash
-   amdgpu-pro-uninstall
-   ```
+    You cannot have ROCm and AMDGPU-Pro driver installed at the same time, if you already have AMDGPU-Pro installed, run the command:
+    ``` bash
+    amdgpu-pro-uninstall
+    ```
 
 
 

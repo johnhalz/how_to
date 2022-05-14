@@ -2,19 +2,17 @@
 
 ## Install `rename` Utility
 
-Install `rename` cli tool
-
-- MacOS:
+=== "macOS"
     ``` bash
     brew install rename
     ```
 
-- Ubuntu / Debian
+=== "Ubuntu"
     ``` bash
     sudo apt install rename
     ```
 
-- Arch
+=== "Arch"
     (Rename is built into Arch)
 
 ## Remove First n Characters from Filenames

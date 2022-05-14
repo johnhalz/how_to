@@ -1,6 +1,6 @@
 # Set Up Bluetooth in Linux
 
-1. Start by installing bluez*, it adds a bunch of drivers and will most likely be the reason why your headset works now.
+1. Start by installing bluez*. It adds a bunch of drivers and will most likely be the reason why your headset works now.
    ```bash
     sudo apt-get install bluez*
    ```

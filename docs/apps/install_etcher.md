@@ -35,13 +35,13 @@
         ```
 
 === "Arch"
-    1. Install package from the AUR:
-        ``` bash
-        sudo yay -S balena-etcher
-        ```
+    Install package from the AUR:
+    ``` bash
+    sudo yay -S balena-etcher
+    ```
 
 === "macOS"
-    1. Install package using Homebrew:
-        ``` bash
-        brew install balenaetcher
-        ```
+    Install package using Homebrew:
+    ``` bash
+    brew install balenaetcher
+    ```

@@ -25,6 +25,7 @@ FFMPEG options:
 - `-f image2pipe` chooses the image2pipe muxer because when outputting to a pipe FFMPEG needs to be told which muxer to use.
 
 `convert` options:
+
 - `-delay` See Setting frame rate section below.
 - `-loop 0` makes an infinite loop.
 - `-layers optimize` Will enable the general purpose GIF optimizer. See ImageMagick Animation Optimization for more details. It is not guaranteed that it will produce a smaller output, so it is worth trying without `-layers optimize` and comparing results.
