@@ -11,7 +11,6 @@ This guide will show you how to port Arch Linux onto the Nvidia Jetson Nano Devk
     ```
 
     !!! info
-
         The link is different for the AGX Xavier Jetson.
 
 2. Extract the downloaded Jetson Nano driver packages (from step 1) to a folder called `Linux_for_Tegra`:
@@ -187,7 +186,8 @@ As Arch Linux uses systemd rather than upstart, the init script will need to be 
 
 15. To create the systemd service, we will need the service descriptor file, that tells systemd about the service. Hence need to create a service file as below in `<path_to_L4T_TOP_DIR>/rootfs/usr/lib/systemd/system/nvidia-tegra.service`:
 
-    *Self-Note:* Path may actually be `<path_to_L4T_TOP_DIR>/usr/lib/systemd/system/nvidia-tegra.service`. Make try the first one before showing this guide to anyone else!!
+    !!! tip
+        Path may actually be `<path_to_L4T_TOP_DIR>/usr/lib/systemd/system/nvidia-tegra.service`. Try the first one before showing this guide to anyone else!!
 
     Create and open file in vim editor:
     ``` bash
@@ -343,7 +343,8 @@ The steps for flashing the Arch Linux image to the Jetson are no different than 
     sudo ./flash.sh jetson-nano-devkit mmcblk0p1
     ```
 
-    *Self-Note:* You may need to change the big `if` statement of the `apply_binaries.sh` script to get it to apply the changes you made in the previous steps. Test and see.
+    !!! tip
+        You may need to change the big `if` statement of the `apply_binaries.sh` script to get it to apply the changes you made in the previous steps. Test and see.
 
 23. Your device should reboot and prompt you to login. The default login for Arch Linux ARM is:
     Username: root

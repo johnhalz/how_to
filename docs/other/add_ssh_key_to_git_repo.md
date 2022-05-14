@@ -18,17 +18,15 @@
 4. Add the public key to your online git settings. Open the account settings page, then find and go to the SSH Keys settings. You will be prompted to add a key to your account.
 
 5. Retreive the public key that you generated
+    
     === "Linux"
-
         On Linux, you can cat the contents:
-
         ``` bash
         cat ~/.ssh/id_rsa.pub
         ```
 
     === "macOS"
         On macOS, the following command copies the output to the clipboard:
-
         ``` bash
         pbcopy < ~/.ssh/id_rsa.pub
         ```

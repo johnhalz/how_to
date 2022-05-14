@@ -1,5 +1,11 @@
 # Install Arch Linux
-> This guide is based off of the DistroTube Arch Linux Installation Guide 2020: <https://www.youtube.com/watch?v=PQgyW10xD8s&t=1495s>
+!!! info
+    This guide is based off of the [DistroTube Arch Linux Installation Guide 2020](https://youtu.be/PQgyW10xD8s)
+
+!!! tip
+    There is a new method for installing Arch linux using a script, while this is still in beta, they are slowly starting to roll it out to users. You can find more infor below:
+    - [Installation video](https://odysee.com/@DistroTube:2/install-arch-linux-the-easy-way-with-the:3)
+    - [Arch Wiki Link](https://wiki.archlinux.org/title/Archinstall)
 
 ## Base System Install
 1. Set keyboard layout:

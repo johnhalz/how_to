@@ -11,7 +11,6 @@ This static website is generated with the help of mkdocs, an open-source python 
 To update the website, simply update/add a markdown file to the `docs` folder and commit to the main branch.
 
 ## Roadmap
-- [ ] Add guide on how to crop images and videos
 - [ ] Add more coding tips (in progress)
 
 ## Authors and acknowledgment

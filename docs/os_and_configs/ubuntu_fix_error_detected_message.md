@@ -4,7 +4,6 @@
    ```bash
    sudo rm /var/crash/*
    ```
-   
    This will delete all the content of directory `/var/crash`. This way you won’t be annoyed by the pop up for the programs crash that happened in the past.
 
 2. Permanently get rid of system error pop up in Ubuntu. To disable the apport and get rid of system crash report completely, open a terminal and use the following command to edit the apport settings file:

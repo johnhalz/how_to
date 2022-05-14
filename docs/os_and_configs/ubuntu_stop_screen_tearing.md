@@ -29,7 +29,6 @@
     5. Click on the button `Save to X Configuration file` to set it at startup
 
     !!! tip
-    
         **Fix For Firefox**
         1. Go to `about:config`
         2. Select `layers.acceleration.force-enabled` and set to `true`
@@ -38,19 +37,16 @@
 === "AMD Graphics"
 
     1. Create a new configuration directory `/etc/X11/xorg.conf.d/`
-    
     ```bash
     sudo mkdir -p /etc/X11/xorg.conf.d/
     ```
 
     2. Use your favorite text editor to create a configuration file called `20-radeon.conf`:
-    
     ```bash
     sudo vim /etc/X11/xorg.conf.d/20-radeon.conf
     ```
 
     3. Put the information below inside the `20-radeon.conf` file and then save and exit the file:
-    
     ```bash
     Section "Device"
         Identifier "Radeon"
@@ -60,15 +56,11 @@
     ```
 
     4. Reboot your system for the new configuration to take effect.
-    
     ```bash
     reboot
     ```
 
-
-
     X. If you still notice some screen tearing after preforming the steps above, then you'll need to edit the `20-radeon.conf` file to include an extra option. Use your text editor to edit the `20-radeon.conf` file to include the `AccelMethod` and `DRI` options and then reboot your system.
-
     ```bash
     sudo vim /etc/X11/xorg.conf.d/20-radeon.conf
     ```

@@ -1,15 +1,14 @@
 # How to Install ROCm for AMD GPUs
 
-> **NOTE:** You cannot have ROCm and AMDGPU-Pro driver installed at the same time, if you already have AMDGPU-Pro installed, run the command:
-> 
-> ```bash
-> amdgpu-pro-uninstall
-> ```
+!!! warning
+   You cannot have ROCm and AMDGPU-Pro driver installed at the same time, if you already have AMDGPU-Pro installed, run the command:
+   ``` bash
+   amdgpu-pro-uninstall
+   ```
 
 
 
 1. Add apt repo:
-   
    ```bash
    wget -qO - http://repo.radeon.com/rocm/apt/debian/rocm.gpg.key | sudo apt-key add - && echo 'deb [arch=amd64] http://repo.radeon.com/rocm/apt/debian/ xenial main' | sudo tee /etc/apt/sources.list.d/rocm.listbash
    ```
@@ -46,10 +45,10 @@
    ```bash
    echo 'export PATH=$PATH:/opt/rocm/bin:/opt/rocm/profiler/bin:/opt/rocm/opencl/bin/x86_64' | sudo tee -a /etc/profile.d/rocm.sh
    ```
+   
+8. To remove ROCm:
+   ```bash
+   sudo apt autoremove rocm-dkms
 
-X. To remove ROCm:
-```bash
-sudo apt autoremove rocm-dkms
-
-sudo apt autoremove rocm-libs miopen-hip cxlactivitylogger
-```
+   sudo apt autoremove rocm-libs miopen-hip cxlactivitylogger
+   ```
