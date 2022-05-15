@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 525 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-31.8258,-138.614)">
+        <rect x="33.161" y="243.428" width="221.607" height="69.944" style="fill:url(#_Linear1);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,268.895,-138.614)">
+        <rect x="33.161" y="243.428" width="221.607" height="69.944" style="fill:url(#_Linear2);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-28.1638,-195.186)">
+        <g transform="matrix(1,0,0,1,17.0944,10.4315)">
+            <g transform="matrix(1,-0,-0,1,11.0693,184.754)">
+                <path d="M134.822,16.023L143.822,20.523L134.822,25.023C137.072,22.773 137.072,18.273 134.822,16.023Z"/>
+                <path d="M80.457,20.523L136.622,20.523" style="fill:none;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,12.7714,1.05847)">
+            <text x="104.344px" y="207.803px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:18.755px;">South</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-15.3923,-61.4089)">
+        <text x="104.344px" y="207.803px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:18.755px;">Roof</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-98.2573,-111.817)">
+        <text x="104.344px" y="207.803px" style="font-family:'SFProDisplay-RegularItalic', 'SF Pro Display';font-style:italic;font-size:18.755px;">θ</text>
+        <text x="114.601px" y="214.048px" style="font-family:'SFProDisplay-RegularItalic', 'SF Pro Display';font-style:italic;font-size:10.934px;">1</text>
+    </g>
+    <g transform="matrix(1,0,0,1,278.017,-113.719)">
+        <text x="104.344px" y="207.803px" style="font-family:'SFProDisplay-RegularItalic', 'SF Pro Display';font-style:italic;font-size:18.755px;">θ</text>
+        <text x="114.601px" y="214.048px" style="font-family:'SFProDisplay-RegularItalic', 'SF Pro Display';font-style:italic;font-size:10.934px;">2</text>
+    </g>
+    <g transform="matrix(1,0,0,1,289.738,-61.4089)">
+        <text x="104.344px" y="207.803px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:18.755px;">Roof</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-26.0653,-195.442)">
+        <g transform="matrix(1,0,0,1,350.673,10.4315)">
+            <g transform="matrix(1,-0,-0,1,-324.607,185.01)">
+                <path d="M470.498,15.766L479.498,20.266L470.498,24.766C472.748,22.516 472.748,18.016 470.498,15.766Z"/>
+                <path d="M416.134,20.266L472.298,20.266" style="fill:none;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(-1,0,0,1,527.179,10.4315)">
+            <g transform="matrix(-1,0,0,1,501.114,185.01)">
+                <path d="M355.223,24.766L346.223,20.266L355.223,15.766C352.973,18.016 352.973,22.516 355.223,24.766Z"/>
+                <path d="M409.587,20.266L353.423,20.266" style="fill:none;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,352.156,1.0951)">
+            <text x="104.344px" y="207.803px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:18.755px;">East</text>
+        </g>
+        <g transform="matrix(1,0,0,1,282.244,1.0951)">
+            <text x="101.267px" y="207.803px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:18.755px;">W<tspan x="117.586px " y="207.803px ">e</tspan>st</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-28.1638,-195.186)">
+        <path d="M86.577,300L43.426,270.084" style="fill:none;stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(-5.13563,0,0,1,445.964,-180.227)">
+        <path d="M86.577,285.042L43.426,285.042" style="fill:none;stroke:black;stroke-width:0.27px;"/>
+    </g>
+    <g transform="matrix(-5.13563,0,0,1,746.686,-180.227)">
+        <path d="M86.577,285.042L43.426,285.042" style="fill:none;stroke:black;stroke-width:0.27px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,50.346,-195.186)">
+        <path d="M86.577,300L43.426,270.084" style="fill:none;stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,128.856,-195.186)">
+        <path d="M86.577,300L43.426,270.084" style="fill:none;stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,314.227,-195.186)">
+        <path d="M86.577,300L38.962,285.042" style="fill:none;stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,435.494,-195.186)">
+        <path d="M86.577,300L38.962,285.042" style="fill:none;stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(-1,0,0,1,392.151,-195.186)">
+        <path d="M86.577,300L38.962,285.042" style="fill:none;stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(-1,0,0,1,513.417,-195.186)">
+        <path d="M86.577,300L38.962,285.042" style="fill:none;stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-28.1638,-195.186)">
+        <path d="M58.874,280.801C54.966,286.44 52.872,293.138 52.872,300C52.872,293.138 54.966,286.44 58.874,280.801Z" style="fill:url(#_Linear3);stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-28.1638,-195.186)">
+        <path d="M400.255,291.029C399.348,293.933 398.886,296.958 398.886,300C398.886,296.958 399.348,293.933 400.255,291.029Z" style="fill:url(#_Linear4);stroke:black;stroke-width:1px;"/>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.28285e-15,69.9442,-69.9442,4.28285e-15,254.769,243.428)"><stop offset="0" style="stop-color:rgb(151,151,151);stop-opacity:1"/><stop offset="1" style="stop-color:white;stop-opacity:0"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.28285e-15,69.9442,-69.9442,4.28285e-15,33.1614,243.428)"><stop offset="0" style="stop-color:rgb(151,151,151);stop-opacity:1"/><stop offset="1" style="stop-color:white;stop-opacity:0"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.30281e-15,67.4113,-21.2765,4.12775e-15,52.8716,266.294)"><stop offset="0" style="stop-color:rgb(151,151,151);stop-opacity:1"/><stop offset="1" style="stop-color:white;stop-opacity:0"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.16275e-15,60.1641,-18.9891,3.68399e-15,398.886,269.918)"><stop offset="0" style="stop-color:rgb(151,151,151);stop-opacity:1"/><stop offset="1" style="stop-color:white;stop-opacity:0"/></linearGradient>
+    </defs>
+</svg>
