@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 421 401" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g>
+        <path d="M262.2,185.53L270.53,185.53L270.53,252.5L302.53,252.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <path d="M307.78,252.5L300.78,256L302.53,252.5L300.78,249L307.78,252.5Z" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <g transform="matrix(0.377361,0,0,0.377361,53.2356,83.5146)">
+            <path d="M85.5,60.5L85.5,134.13" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.65px;"/>
+        </g>
+        <g transform="matrix(0.45385,0,0,0.45385,46.6959,33.018)">
+            <path d="M85.5,60.5L85.5,134.13" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.2px;"/>
+        </g>
+        <path d="M85.5,139.38L82,132.38L85.5,134.13L89,132.38L85.5,139.38Z" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,52.2663,103.703)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">400-800 VDC</text>
+            </g>
+        </g>
+        <rect x="25.5" y="0.5" width="120" height="60" style="fill:none;stroke:white;stroke-width:1px;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,85.3535,28.3218)">
+            <g>
+                <g>
+                    <g transform="matrix(1,0,0,1,-50.024,0)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:12px;fill:white;">Solar Panel Array</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-20.786,11)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">(on roof)</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(0.315653,0,0,0.315653,116.681,126.946)">
+            <path d="M170.5,185.5L304.13,185.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:3.17px;"/>
+        </g>
+        <g transform="matrix(0.263486,0,0,0.263486,225.042,136.653)">
+            <path d="M170.5,185.5L304.13,185.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:3.8px;"/>
+        </g>
+        <path d="M309.38,185.5L302.38,189L304.13,185.5L302.38,182L309.38,185.5Z" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,214.972,189.478)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">240 VAC</text>
+            </g>
+        </g>
+        <g transform="matrix(0.319226,0,0,0.319226,58.2062,213.851)">
+            <path d="M85.5,230.5L85.5,314.13" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:3.13px;"/>
+        </g>
+        <g transform="matrix(0.383892,0,0,0.383892,52.6772,142.013)">
+            <path d="M85.5,230.5L85.5,314.13" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.6px;"/>
+        </g>
+        <path d="M85.5,319.38L82,312.38L85.5,314.13L89,312.38L85.5,319.38Z" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,85.5994,272.694)">
+            <g>
+                <g>
+                    <g transform="matrix(1,0,0,1,-40.05,0)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">(Suitable battery</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-47.086,11)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">voltage and current)</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path d="M170.5,154C170.5,146.549 164.451,140.5 157,140.5L14,140.5C6.549,140.5 0.5,146.549 0.5,154L0.5,217C0.5,224.451 6.549,230.5 14,230.5L157,230.5C164.451,230.5 170.5,224.451 170.5,217L170.5,154Z" style="fill:none;stroke:white;stroke-width:1px;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,85.6893,177.639)">
+            <g>
+                <g>
+                    <g transform="matrix(1,0,0,1,-22.011,0)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:12px;fill:white;">Inverter</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-41.58,11)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">(placed in a cool,</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-41.266,22)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">dry environment)</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path d="M330.5,165.5L390.5,165.5L410.5,185.5L390.5,205.5L330.5,205.5L310.5,185.5L330.5,165.5Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,326.818,189.34)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:11px;fill:white;">Home Power</text>
+            </g>
+        </g>
+        <path d="M55.5,335.5C55.5,327.22 68.93,320.5 85.5,320.5C93.46,320.5 101.09,322.08 106.71,324.89C112.34,327.71 115.5,331.52 115.5,335.5L115.5,385.5C115.5,393.78 102.07,400.5 85.5,400.5C68.93,400.5 55.5,393.78 55.5,385.5L55.5,335.5Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <path d="M115.5,335.5C115.5,343.78 102.07,350.5 85.5,350.5C68.93,350.5 55.5,343.78 55.5,335.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,66.048,373)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:11px;fill:white;">Battery</text>
+            </g>
+        </g>
+        <path d="M330.5,240.5C306.5,240.5 300.5,260.5 319.7,264.5C300.5,273.3 322.1,292.5 337.7,284.5C348.5,300.5 384.5,300.5 396.5,284.5C420.5,284.5 420.5,268.5 405.5,260.5C420.5,244.5 396.5,228.5 375.5,236.5C360.5,224.5 336.5,224.5 330.5,240.5Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,361.856,260.666)">
+            <g>
+                <g>
+                    <g transform="matrix(1,0,0,1,-29.34,0)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:11px;fill:white;">Grid Power</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-21.699,11)">
+                        <text x="0px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:11px;fill:white;">Network</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
