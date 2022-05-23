@@ -11,7 +11,7 @@ Recently, energy has become a more critical and therefore expensive resource. Th
 
 The most common and inexpensive renewable method for an individual to produce electrical energy is to use solar arrays. Adding a solar array to one's rooftop is becoming increasingly popular in an attempt to alleviate the additional costs that are brought on by energy companies year after year, and as their popularity grows, the more their price decreases. Solar arrays have also been shown to be capable of operating at 80% efficiency for 25-30 years, and still producing energy after that period.
 
-In this guide we will go over the different methods for solar panel mounting and briefly go over the costs of installing such a system on the roof of a private household.
+In this guide we will go over the different methods for solar panel mounting as well as the techincal reasoning behind them.
 
 ## Solar Array System
 A general solar array system is composed of two or three components:
