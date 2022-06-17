@@ -1,4 +1,4 @@
-# 25 Bad Python Habits
+# Bad Python Habits
 
 This page goes over 25 common bad habits that a new programmer commonly does when starting out with Python. While some of these habits can impact your code in a bad way, some will also work fine, albeit not as efficiently as the proper method.
 
@@ -428,13 +428,25 @@ if __name__ == '__main__':
 
 Relying on your folder structure to run code successfully makes your repo more fragile. Instead, take the time to create packages from the code you wrote and install it into your environment.
 
-## 23. The common misconception that Python is not compiled
+## 23. Emptying a list by assigning a new value
+``` py
+def empty_list(list):
+    # Not great
+    list = []
+
+    # Better
+    del list[:]
+```
+
+`del list[:]` actually removes the contents from the list, writing `list = []` does not empty the list, just creates a new object and binds it to the variable `list`, but the old list will still have the same elements, and effect will be apparent if it had other variable bindings.
+
+## 24. The common misconception that Python is not compiled
 Python isn't compiled down to machine code. Instead, it is compiled down to byte code. That byte is then run by the interpreter.
 
 You will commonly see these byte-code files in a `.pyc` file or a `__pycache__` file.
 
-## 24. Not following PEP 8
+## 25. Not following PEP 8
 PEP 8 is a style guide for writing python code. It is the standard style and makes things a lot easier to read. You can learn more about PEP 8 [here](https://pep8.org/).
 
-## 25. Doing anything to do with Python 2
+## 26. Doing anything to do with Python 2
 Python 2 hit its end of life years ago (to the point that it's not supported by modern operating systems anymore). The only reason for keeping Python 2 code around is only if you have millions (and nothing less) of lines of python 2 code.
