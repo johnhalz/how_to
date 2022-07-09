@@ -5,16 +5,19 @@ Plex can be used as a personal media server to host movies, TV shows, podcasts, 
 1. Install Plex Media Server onto a server
 
     === "Ubuntu/Debian"
-        1. Add the Plex APT repository to your system and import the repository’s GPG key:
-            ``` bash
-            curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
-            echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
-            ```
-        2. Once the repository is enabled, update the apt package list and install the latest server version:
-            ``` bash
-            sudo apt update
-            sudo apt install plexmediaserver
-            ```
+        Add the Plex APT repository to your system and import the repository’s GPG key:
+
+        ``` bash
+        curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
+        echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
+        ```
+        
+        Once the repository is enabled, update the apt package list and install the latest server version:
+        
+        ``` bash
+        sudo apt update
+        sudo apt install plexmediaserver
+        ```
 
     === "Arch"
         Install from the AUR:
