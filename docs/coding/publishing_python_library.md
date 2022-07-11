@@ -1,6 +1,6 @@
-# Publishing a Python Package to PyPi
+# Publishing a Python Package to PyPI
 
-The Python Package Index (PyPI) has become the go-to place for searching and downloading python packages. This guide will take you through all of the steps to take a python project and upload it so that others may use it.
+The [Python Package Index (PyPI)](https://pypi.org/) has become the go-to place for searching and downloading python packages. This guide will take you through all of the steps to take a python project and upload it so that others may use it.
 
 ## Preparing Project
 
@@ -42,14 +42,14 @@ The `__init__.py` files allow external scripts to 'see' the `<package-name>/` fo
     ``` python
     from sys import path
     from os.path import dirname, join, abspath
-    path.insert(0, abspath(join(dirname(__file__), '..')))
+    path.append(abspath(join(dirname(__file__), '..')))
     ```
 
 === "`tests/__init__.py`"
     ``` python
     from sys import path
     from os.path import dirname, join, abspath
-    path.insert(0, abspath(join(dirname(__file__), '..')))
+    path.append(abspath(join(dirname(__file__), '..')))
     ```
 
 By setting the `__init__.py` files this way you can just call the package classes in a similar way to other packages:
@@ -72,6 +72,12 @@ from pathlib import Path
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
+# Add resource links
+project_urls = {
+  'Documentation': 'https://demo.org',
+  'Repository': 'https://gitlab.com/'
+}
+
 # Setting up
 setup(
     name="<package-name>",
@@ -82,8 +88,9 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
-    install_requires=['numpy', 'scipy'],
+    install_requires=open("requirements.txt", "r").read().split("\n"),
     keywords=['python'],
+    project_urls = project_urls,
     classifiers=[
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
@@ -95,14 +102,19 @@ setup(
 
 ```
 
-This setup file defines the version number, which operating systems are allowed to install it, and which package dependencies this published package has. This setup file is also configured to show the `README.md` file of the repository as the long description of the package of PyPI.
+This setup script defines a few key parameters of the package to be published:
+
+- Version number
+- Which operating systems are allowed to install the package
+- Dependencies of the package (defined the `requirements.txt` file)
+- Adds links to documentation and repository (found in `project_urls`)
+
+This setup file is also configured to show the `README.md` file of the repository as the long description of the package of PyPI.
 
 !!! info
-    Future improvement should be made to:
+    Future improvements should be made to:
     
-    - Include a link to the documentation of the project
-    - Automatically import the requirements from the `requirements.txt` file
-    - Automatically increment the version number on a new build
+    - Automatically increment the version number on a new build (using [`bumpver`](https://pypi.org/project/bumpver/))
 
 ## Publishing
 
