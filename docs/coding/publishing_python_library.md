@@ -154,3 +154,13 @@ twine upload dist/*
 ```
 
 `twine` will then ask for your PyPI username and password, and then upload the new build!
+
+#### Adding to .gitignore
+
+The command `python3 setup.py sdist bdist_wheel` creates three folders containing a lot of content. It is therefore best to add the following lines to your `.gitignore` file to avoid syncing these folders:
+
+``` bash title="setup.py"
+build/
+dist/
+*.egg-info/
+```
