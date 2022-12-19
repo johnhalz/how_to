@@ -24,3 +24,10 @@
     ``` bash
     pyenv --version
     ```
+
+!!! tip
+    Depending on how fresh your installation of ubuntu is, you might need to run the following command to install the required packages to be able to build the different versions of python on your system:
+
+    ``` bash
+    sudo apt install -y build-essential zlib1g-dev libffi-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev liblzma-dev
+    ```
