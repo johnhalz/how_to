@@ -10,9 +10,11 @@
     curl https://pyenv.run | bash
     ```
 
-3. Add the environment variables Into `bashrc` file
+3. Add the following lines to the `bashrc` file. Run `pyenv init` if you are not prompted to add these lines.
     ``` bash
-    export PATH="$HOME/.pyenv/bin:$PATH" && eval "$(pyenv init --path)" && echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+    export PYENV_ROOT="$HOME/.pyenv"
+    command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init -)"
     ```
 
 4. Restart the shell in Ubuntu:
