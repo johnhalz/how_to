@@ -8,10 +8,7 @@ The general idea behind this guide is to have a personal wiki which you can cons
 This static website is generated with the help of mkdocs, an open-source python documentation tool. The material theme (along with all of its tools) is used for better presentation.
 
 ## Usage
-To update the website, simply update/add a markdown file to the `docs` folder and commit to the main branch.
-
-## Roadmap
-- [ ] Add more coding tips (in progress)
+To update the website, simply update/add a markdown file to the `docs` folder, then commit and push to the main branch.
 
 ## Authors and acknowledgment
 Author: John Halazonetis
