@@ -24,4 +24,6 @@ jobs:
         pip install mkdocs-material
 
     - name: Build MkDocs
-      run: mkdocs build --site-dir public
+      run: |
+        mkdocs build --site-dir public
+        mkdocs gh-deploy
