@@ -25,9 +25,3 @@ jobs:
 
     - name: Build MkDocs
       run: mkdocs build --site-dir public
-
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.1.1
-      with:
-        branch: gh-pages
-        folder: public
