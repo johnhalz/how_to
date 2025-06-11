@@ -44,3 +44,48 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: "index.md"
+  - Apps:
+      - Install Etcher: "apps/install_ether.md"
+      - Linux - Setup Bluetooth: "apps/linux_setup_bluetooth.md"
+      - Network Scanning: "apps/network_scan.md"
+  - Coding:
+      - Asynchronous Programming: "coding/asynchronous_programming.md"
+      - Bad Python Habits: "coding/bad_python_habits.md"
+      - Diagnosing Slow Python: "coding/diagnosing_slow_python.md"
+  - FFMPEG & ImageMagick:
+      - Animate Images: "ffmpeg_imagemagick/animate_images.md"
+      - Change Resolution: "ffmpeg_imagemagick/change_resolution.md"
+      - Convert Many Images: "ffmpeg_imagemagick/convert_many_images.md"
+      - Convert Video to GIF: "ffmpeg_imagemagick/convert_video_to_gif.md"
+      - Cropping: "ffmpeg_imagemagick/cropping.md"
+      - Split GIF into Images: "ffmpeg_imagemagick/split_gif_into_images.md"
+      - Transcode Video Resolve: "ffmpeg_imagemagick/transcode_video_resolve.md"
+      - YT DLP: "ffmpeg_imagemagick/yt_dlp.md"
+  - File Handling:
+      - Alternative to SCP: "file_handling/alternative_to_scp.md"
+      - File Counting: "file_handling/file_counting.md"
+      - Rename Many Files: "file_handling/rename_many_files.md"
+  - Operating Systems & Configs:
+      - Get Windows: "operating_systems_and_configs/get_windows.md"
+      - Graphics Drivers: "operating_systems_and_configs/graphics_drivers.md"
+      - Install Arch: "operating_systems_and_configs/install_arch.md"
+      - Install ROCm Drivers: "operating_systems_and_configs/install_ROCm_drivers.md"
+      - Make GRUB Menu Appear: "operating_systems_and_configs/make_grub_menu_appear.md"
+      - Port Arch Linux to Jetson: "operating_systems_and_configs/port_arch_linux_to_jetson.md"
+      - Raspberry Pi Camera: "operating_systems_and_configs/raspberry_pi_camera.md"
+      - SSH Errors: "operating_systems_and_configs/ssh_error.md"
+      - Ubuntu - Stop Automatically Adding Printers: "operating_systems_and_configs/ubuntu_stop_automatically_adding_printers.md"
+      - Ubuntu - Stop Screen Tearing: "operating_systems_and_configs/ubuntu_stop_screen_tearing.md"
+      - Ubuntu - Working with External Drives: "operating_systems_and_configs/ubuntu_working_with_external_drives.md"
+      - Arch - Wifi Drivers: "operating_systems_and_configs/wifi_drivers_arch_linux.md"
+  - Other:
+      - Add SSH Key to Git: "other/add_ssh_key_to_git.md"
+      - Compress PDF in Terminal: "other/compress_pdf_in_terminal.md"
+      - Loop Through Files: "other/loop through_files.md"
+      - MS Office Templates: "other/ms_office_templates.md"
+      - Running a Job Using Tmux: "other/running_a_job_using_tmux.md"
+      - Solar Arrays: "other/solar_arrays.md"
+      - SSH Raspberry Pi USB: "other/ssh_raspi_usb.md"
