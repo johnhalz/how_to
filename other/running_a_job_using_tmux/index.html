@@ -1495,6 +1495,84 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ssh-into-the-remote-machine" class="md-nav__link">
+    <span class="md-ellipsis">
+      SSH into the remote machine:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-a-tmux-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start a tmux session:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-your-long-running-command-inside-the-tmux-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run your long-running command inside the tmux session.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detach-from-the-tmux-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detach from the tmux session:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disconnect-from-ssh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disconnect from SSH:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#later-reconnect-and-resume-the-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Later, reconnect and resume the session:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#killing-a-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Killing a Session
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
 </li>
       
     </ul>
@@ -1592,6 +1670,84 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ssh-into-the-remote-machine" class="md-nav__link">
+    <span class="md-ellipsis">
+      SSH into the remote machine:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-a-tmux-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start a tmux session:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-your-long-running-command-inside-the-tmux-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run your long-running command inside the tmux session.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detach-from-the-tmux-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detach from the tmux session:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disconnect-from-ssh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disconnect from SSH:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#later-reconnect-and-resume-the-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Later, reconnect and resume the session:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#killing-a-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Killing a Session
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
 </li>
       
     </ul>
@@ -1614,38 +1770,29 @@
 <p>Is some cases, you might want to run a script that will take some time on a separate machine. You can connect to the machine via SSH and run commands, but if you exit from the SSh session, the terminal session will end, and any long-running command you started will be cancelled by the OS.</p>
 <p>Tmux offers a solution to this.</p>
 <h2 id="steps">Steps</h2>
-<ol>
-<li>
-<p>SSH into the remote machine:</p>
+<h3 id="ssh-into-the-remote-machine">SSH into the remote machine:</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ssh<span class="w"> </span>user@remote_host
 </code></pre></div>
-</li>
-<li>
-<p>Start a tmux session:</p>
+<h3 id="start-a-tmux-session">Start a tmux session:</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>tmux<span class="w"> </span>new<span class="w"> </span>-s<span class="w"> </span>mysession
 </code></pre></div>
 <p><strong>Note:</strong> You can give a different name to the session than <code>mysession</code>.</p>
-</li>
-<li>
-<p>Run your long-running command inside the tmux session.</p>
-</li>
-<li>
-<p>Detach from the tmux session:</p>
+<h3 id="run-your-long-running-command-inside-the-tmux-session">Run your long-running command inside the tmux session.</h3>
+<h3 id="detach-from-the-tmux-session">Detach from the tmux session:</h3>
 <p>Press Ctrl + b, then press d.</p>
 <p>(This will return you to the regular shell but leave the command running.)</p>
-</li>
-<li>
-<p>Disconnect from SSH:</p>
+<h3 id="disconnect-from-ssh">Disconnect from SSH:</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">exit</span>
 </code></pre></div>
-</li>
-<li>
-<p>Later, reconnect and resume the session:</p>
+<h3 id="later-reconnect-and-resume-the-session">Later, reconnect and resume the session:</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ssh<span class="w"> </span>user@remote_host
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>tmux<span class="w"> </span>attach<span class="w"> </span>-t<span class="w"> </span>mysession
 </code></pre></div>
-</li>
-</ol>
+<h3 id="killing-a-session">Killing a Session</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>tmux<span class="w"> </span>kill-session<span class="w"> </span>-t<span class="w"> </span>mysession
+</code></pre></div>
+<h2 id="references">References</h2>
+<p>To learn more, you can visit the following cheat-sheet: https://tmuxcheatsheet.com/</p>
 
 
 
