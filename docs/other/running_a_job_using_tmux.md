@@ -6,37 +6,47 @@ Tmux offers a solution to this.
 
 ## Steps
 
-1. SSH into the remote machine:
+### SSH into the remote machine:
 
-    ``` bash
-    ssh user@remote_host
-    ```
+``` bash
+ssh user@remote_host
+```
 
-2. Start a tmux session:
+### Start a tmux session:
 
-    ``` bash
-    tmux new -s mysession
-    ```
+``` bash
+tmux new -s mysession
+```
 
-    **Note:** You can give a different name to the session than `mysession`.
+**Note:** You can give a different name to the session than `mysession`.
 
-3. Run your long-running command inside the tmux session.
+### Run your long-running command inside the tmux session.
 
-4. Detach from the tmux session:
+### Detach from the tmux session:
 
-    Press Ctrl + b, then press d.
+Press Ctrl + b, then press d.
 
-    (This will return you to the regular shell but leave the command running.)
+(This will return you to the regular shell but leave the command running.)
 
-5. Disconnect from SSH:
+### Disconnect from SSH:
 
-    ``` bash
-    exit
-    ```
+``` bash
+exit
+```
 
-6. Later, reconnect and resume the session:
+### Later, reconnect and resume the session:
 
-    ``` bash
-    ssh user@remote_host
-    tmux attach -t mysession
-    ```
+``` bash
+ssh user@remote_host
+tmux attach -t mysession
+```
+
+### Killing a Session
+
+``` bash
+tmux kill-session -t mysession
+```
+
+## References
+
+To learn more, you can visit the following cheat-sheet: https://tmuxcheatsheet.com/
