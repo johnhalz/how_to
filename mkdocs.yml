@@ -81,6 +81,7 @@ nav:
       - Ubuntu - Stop Screen Tearing: "operating_systems_and_configs/ubuntu_stop_screen_tearing.md"
       - Ubuntu - Working with External Drives: "operating_systems_and_configs/ubuntu_working_with_external_drives.md"
       - Arch - Wifi Drivers: "operating_systems_and_configs/wifi_drivers_arch_linux.md"
+      - Stop DS Store File Creation: "operating_systems_and_configs/stop_ds_store_file_creation.md"
   - Other:
       - Add SSH Key to Git: "other/add_ssh_key_to_git_repo.md"
       - Compress PDF in Terminal: "other/compress_pdf_in_terminal.md"
@@ -89,4 +90,3 @@ nav:
       - Running a Job Using Tmux: "other/running_a_job_using_tmux.md"
       - Solar Arrays: "other/solar_arrays.md"
       - SSH Raspberry Pi USB: "other/ssh_raspi_usb.md"
-      - Stop DS Store File Creation: "operating_systems_and_configs/stop_ds_store_file_creation.md"

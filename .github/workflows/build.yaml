@@ -25,13 +25,13 @@ jobs:
           python-version-file: "pyproject.toml"
 
       - name: Install the dependencies
-        run: uv sync --locked --all-extras
+        run: uv sync
 
       - name: Build the documentation
-        run: uv run mkdocs build --site-dir public
+        run: uv run mkdocs build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          branch: gh-pages
-          folder: public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
