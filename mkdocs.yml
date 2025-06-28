@@ -3,12 +3,12 @@ site_name: JH How To
 theme:
   name: material
   palette:
-    - media: "(prefers-color-scheme: light)" 
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)" 
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/toggle-switch
@@ -48,7 +48,7 @@ extra_javascript:
 nav:
   - Home: "index.md"
   - Apps:
-      - Install Etcher: "apps/install_ether.md"
+      - Install Etcher: "apps/install_etcher.md"
       - Linux - Setup Bluetooth: "apps/linux_setup_bluetooth.md"
       - Network Scanning: "apps/network_scan.md"
   - Coding:
@@ -82,10 +82,11 @@ nav:
       - Ubuntu - Working with External Drives: "operating_systems_and_configs/ubuntu_working_with_external_drives.md"
       - Arch - Wifi Drivers: "operating_systems_and_configs/wifi_drivers_arch_linux.md"
   - Other:
-      - Add SSH Key to Git: "other/add_ssh_key_to_git.md"
+      - Add SSH Key to Git: "other/add_ssh_key_to_git_repo.md"
       - Compress PDF in Terminal: "other/compress_pdf_in_terminal.md"
-      - Loop Through Files: "other/loop through_files.md"
+      - Loop Through Files: "other/loop_through_files.md"
       - MS Office Templates: "other/ms_office_templates.md"
       - Running a Job Using Tmux: "other/running_a_job_using_tmux.md"
       - Solar Arrays: "other/solar_arrays.md"
       - SSH Raspberry Pi USB: "other/ssh_raspi_usb.md"
+      - Stop DS Store File Creation: "operating_systems_and_configs/stop_ds_store_file_creation.md"
