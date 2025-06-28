@@ -1,0 +1,7 @@
+[project]
+name = "how-to"
+version = "0.1.0"
+description = "Online how to guide"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["mkdocs-material>=9.6.14"]
