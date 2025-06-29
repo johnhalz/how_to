@@ -22,9 +22,13 @@ tmux new -s mysession
 
 ### Run your long-running command inside the tmux session.
 
+``` bash
+python run_long_script.py
+```
+
 ### Detach from the tmux session:
 
-Press Ctrl + b, then press d.
+Press ++ctrl+b++, and then press ++d++.
 
 (This will return you to the regular shell but leave the command running.)
 
@@ -49,4 +53,4 @@ tmux kill-session -t mysession
 
 ## References
 
-To learn more, you can visit the following cheat-sheet: https://tmuxcheatsheet.com/
+To learn more, you can visit the following cheat-sheet: <https://tmuxcheatsheet.com/>
