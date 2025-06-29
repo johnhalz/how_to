@@ -1640,21 +1640,23 @@
 </code></pre></div>
 <p><strong>Note:</strong> You can give a different name to the session than <code>mysession</code>.</p>
 <h3 id="run-your-long-running-command-inside-the-tmux-session">Run your long-running command inside the tmux session.</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>python<span class="w"> </span>run_long_script.py
+</code></pre></div>
 <h3 id="detach-from-the-tmux-session">Detach from the tmux session:</h3>
-<p>Press Ctrl + b, then press d.</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-b">B</kbd></span>, and then press <span class="keys"><kbd class="key-d">D</kbd></span>.</p>
 <p>(This will return you to the regular shell but leave the command running.)</p>
 <h3 id="disconnect-from-ssh">Disconnect from SSH:</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">exit</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">exit</span>
 </code></pre></div>
 <h3 id="later-reconnect-and-resume-the-session">Later, reconnect and resume the session:</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ssh<span class="w"> </span>user@remote_host
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>tmux<span class="w"> </span>attach<span class="w"> </span>-t<span class="w"> </span>mysession
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>ssh<span class="w"> </span>user@remote_host
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>tmux<span class="w"> </span>attach<span class="w"> </span>-t<span class="w"> </span>mysession
 </code></pre></div>
 <h3 id="killing-a-session">Killing a Session</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>tmux<span class="w"> </span>kill-session<span class="w"> </span>-t<span class="w"> </span>mysession
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>tmux<span class="w"> </span>kill-session<span class="w"> </span>-t<span class="w"> </span>mysession
 </code></pre></div>
 <h2 id="references">References</h2>
-<p>To learn more, you can visit the following cheat-sheet: https://tmuxcheatsheet.com/</p>
+<p>To learn more, you can visit the following cheat-sheet: <a href="https://tmuxcheatsheet.com/">https://tmuxcheatsheet.com/</a></p>
 
 
 
