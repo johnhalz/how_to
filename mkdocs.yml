@@ -84,6 +84,7 @@ nav:
       - Arch - Wifi Drivers: "operating_systems_and_configs/wifi_drivers_arch_linux.md"
       - Stop DS Store File Creation: "operating_systems_and_configs/stop_ds_store_file_creation.md"
   - Other:
+      - Container Management: "other/container_management.md"
       - Add SSH Key to Git: "other/add_ssh_key_to_git_repo.md"
       - Compress PDF in Terminal: "other/compress_pdf_in_terminal.md"
       - Loop Through Files: "other/loop_through_files.md"
