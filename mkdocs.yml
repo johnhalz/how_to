@@ -55,6 +55,7 @@ nav:
       - Asynchronous Programming: "coding/asynchronous_programming.md"
       - Bad Python Habits: "coding/bad_python_habits.md"
       - Diagnosing Slow Python: "coding/diagnosing_slow_python.md"
+      - Create Web App Project: "coding/create_web_app_project.md"
   - FFMPEG & ImageMagick:
       - Animate Images: "ffmpeg_imagemagick/animate_images.md"
       - Change Resolution: "ffmpeg_imagemagick/change_resolution.md"
